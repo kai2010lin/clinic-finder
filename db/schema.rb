@@ -11,16 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140228190327) do
+ActiveRecord::Schema.define(version: 20140228192712) do
 
   create_table "clinics", force: true do |t|
-    t.text     "street"
-    t.text     "street_optional"
-    t.text     "city"
-    t.text     "state"
-    t.text     "zip"
+    t.string   "street"
+    t.string   "street_optional"
+    t.string   "city"
+    t.string   "state"
+    t.string   "zip"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "name"
   end
 
 end
