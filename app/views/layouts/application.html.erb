@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ClinicFinder</title>
+  <title>Clinic Finder</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "http://maps.googleapis.com/maps/api/js?key=AIzaSyAxhaQw0WqCTCyPad-5m-jRIchwFVE5kXU&sensor=true" %>
   <%= csrf_meta_tags %>
+
+  <%= yield :head %>
 </head>
 <body>
 
