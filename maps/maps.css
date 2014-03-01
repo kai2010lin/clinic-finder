@@ -1,0 +1,16 @@
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+
+#map-canvas { width: 50%; height: 100% }
+
+#start {
+    width: 20em;
+}
+
+#end {
+    width: 20em;
+}
+
+input[type=button] {
+    height: 2ex;
+}
