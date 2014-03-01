@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link type="text/css" rel="stylesheet" href="maps.css">
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAfVxLyP5zb-k0IzW6Jp903S6i_BPAsLgA&sensor=true"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="maps.js"></script>
+</head>
+<body onload="initialize()">
+    <div class="hello">
+        <form>
+            <table>
+                <tr>
+                    <td>From:</td>
+                    <td><input type="text" id="start" value="1183 Sherwood Ave, San Jose, CA"/></td>
+                </tr>
+                <tr>
+                    <td>To:</td>
+                    <td><input type="text" id="end" value="500 El Camino Real, Santa Clara, CA"/></td>
+                </tr>
+                <tr><td><input type="button" value="Go go go!"/></td></tr>
+            </table>
+        </form>
+    </div>
+    <div id="map-canvas"/>
+</body>
+</html>
